@@ -1,0 +1,1 @@
+gcc -m64 -fpic --shared -o libmylib.so -I$JAVA_HOME/include  -I$JAVA_HOME/include/linux -L$JAVA_HOME/lib -lX11 -ljawt -L$JAVA_HOME/lib/server libmylib.c 

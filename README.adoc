@@ -1,0 +1,14 @@
+== Quick start
+
+== LD LIBRARY PATH 
+
+
+=== Play with the samples
+NOTE: read Makefile to compile,run 
+
+gmake run-native
+  
+
+ 
+
+
