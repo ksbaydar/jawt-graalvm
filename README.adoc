@@ -1,6 +1,18 @@
 == Quick start
+This sample derived from https://github.com/AdoptOpenJDK/openjdk-jdk11/blob/master/src/java.desktop/share/native/include/jawt.h 
 
-== LD LIBRARY PATH 
+Describe GraalVM and your environment:
+
+GraalVM version: graalvm-ee-java11-22.3.0
+JDK major version: 11
+OS: Redhat Enterprise Linux 8.5 
+Architecture: AMD64
+
+
+Just a minimal AWT application to obtain native image. I can produce native image but when I run it it fails with JAWT_LOCK_ERROR. 
+After getting successfully awt_DrawingSurface data, it fails.
+
+There might be due to unsupported usage of Component.Peer class.  
 
 
 === Play with the samples
